@@ -6,8 +6,8 @@ class Config(Config):
     TG_BOT_TOKEN= "1641612309:AAGPMdSG76CTmXo7QQD9S0DXTXeeq54foMA" #imp
     APP_ID = 1309280 #imp
     API_HASH = "af327dd857e0e65f80fefcf6d0af4afd" #imp
-    AUTH_CHANNEL = [-1001454182978, -1001454182978] #imp replace your_id with your id from telegram or delete
-    INDEX_LINK = "https://torrentleech.torrentleech-gdrive.workers.dev
+    AUTH_CHANNEL = [-1001454182978, 1087968824] #imp replace your_id with your id from telegram or delete
+    INDEX_LINK = "https://bold-scene-480b.satyu.workers.dev"
     GLEECH_COMMAND = "gleech@MyTorrentDrive_BOT"
     YTDL_COMMAND = 'ytdl@MyTorrentDrive_BOT'
     TELEGRAM_LEECH_COMMAND_G = "tleech@MyTorrentDrive_BOT"
