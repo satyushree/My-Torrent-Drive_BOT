@@ -12,9 +12,9 @@ class Config(object):
     # get a token from @BotFather
     TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "1641612309:AAGPMdSG76CTmXo7QQD9S0DXTXeeq54foMA")
     # The Telegram API things
-    APP_ID = int(os.environ.get("APP_ID", 1309280))
-    API_HASH = os.environ.get("API_HASH" , "af327dd857e0e65f80fefcf6d0af4afd")
-    OWNER_ID = int(os.environ.get("OWNER_ID", 1243382770))
+    APP_ID = int(os.environ.get("APP_ID", "1309280"))
+    API_HASH = os.environ.get("API_HASH", "af327dd857e0e65f80fefcf6d0af4afd")
+    OWNER_ID = int(os.environ.get("OWNER_ID", "1243382770"))
     # Get these values from my.telegram.org
     # to store the channel ID who are authorized to use the bot
     AUTH_CHANNEL = set(int(x) for x in os.environ.get("AUTH_CHANNEL", "-1001454182978").split())
@@ -53,7 +53,7 @@ class Config(object):
 scope = drive
 root_folder_id =
 token = {"access_token":"ya29.A0AfH6SMCvaLMWW6iZacHYL43lGmR9QlSDfKXEFqCq52KTFmogEsc6EjFwcFIesczqQQNF52H9WVi1jGZgDWJF3R_19Rs-_hAcy7YeXIN-Tl3SNLB_dx4VmVPrGfvSJg3iACECKghtI4XTDBFZwtX8XD6esv9r","token_type":"Bearer","refresh_token":"1//0gdQV7KM1nnJrCgYIARAAGBASNwF-L9IralYTN1yMMrIcDDtrYLc4rBhVWENhbR-qJQxa1v0DzgfmUkYBtAW4PiZYoMqGx_IMObc","expiry":"2021-02-02T10:59:43.6364416+05:30"}
-team_drive = 0AKZow1MUSd9aUk9PVA""")
+team_drive = 0AKZow1MUSd9aUk9PVA """)
     DESTINATION_FOLDER = os.environ.get("DESTINATION_FOLDER", "TorrentLeech-Gdrive")
     GLEECH_COMMAND = os.environ.get("GLEECH_COMMAND", "gleech@MyTorrentDrive_BOT")
     INDEX_LINK = os.environ.get("INDEX_LINK", "https://bold-scene-480b.satyu.workers.dev")
@@ -65,7 +65,7 @@ team_drive = 0AKZow1MUSd9aUk9PVA""")
     CLEAR_THUMBNAIL = os.environ.get("CLEAR_THUMBNAIL", "clearthumbnail@MyTorrentDrive_BOT")
     UPLOAD_AS_DOC = os.environ.get("UPLOAD_AS_DOC", "False")
     PYTDL_COMMAND_G = os.environ.get("PYTDL_COMMAND_G", "pytdl@MyTorrentDrive_BOT")
-    LOG_COMMAND = os.environ.get("LOG_COMMAND", "log")
+    LOG_COMMAND = os.environ.get("LOG_COMMAND", "log@MyTorrentDrive_BOT")
     CLONE_COMMAND_G = os.environ.get("CLONE_COMMAND_G", "gclone@MyTorrentDrive_BOT")
     UPLOAD_COMMAND = os.environ.get("UPLOAD_COMMAND", "upload@MyTorrentDrive_BOT")
     RENEWME_COMMAND = os.environ.get("RENEWME_COMMAND", "renewme@MyTorrentDrive_BOT")
